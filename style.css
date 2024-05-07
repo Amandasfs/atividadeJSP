@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: black;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    width: 25rem;
+    height: 25rem;
+    border: 1px solid #bb76de;
+    background-color: #d2a0eb;
+    border-radius: 2rem;
+    box-shadow: 0 0 4rem #bb76de;
+}
+
+
+.itens {
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    letter-spacing: 1.5px;
+    color: #713b8b;
+    font-size: 2rem;
+    font-weight: 400;
+}
+#num1, #num2, button{
+    margin-top: 0.5rem;
+    background-color: #713b8b;
+    border: none;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 400;
+}
+button:hover{
+    background-color: aliceblue;
+    border: none;
+    color: #713b8b;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#num1, #num2{
+    height: 2.5rem;
+    width: 15rem;
+}
+button{
+    height: 2.5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
